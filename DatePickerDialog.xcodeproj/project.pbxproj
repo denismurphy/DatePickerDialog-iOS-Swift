@@ -7,26 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4B025BE61D8F46E2000CF209 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B025BDE1D8F46E2000CF209 /* AppDelegate.swift */; };
-		4B025BE91D8F46E2000CF209 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B025BE21D8F46E2000CF209 /* ViewController.swift */; };
-		4B025BEA1D8F46E2000CF209 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B025BE41D8F46E2000CF209 /* Launch Screen.storyboard */; };
-		4B025BEB1D8F46E2000CF209 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B025BE51D8F46E2000CF209 /* Main.storyboard */; };
-		4B025BEF1D8F4766000CF209 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B025BED1D8F4766000CF209 /* Assets.xcassets */; };
-		4BBB68A11D8FDAC500413949 /* DatePickerDialog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BDE05A31D8F3AF000DEF7F3 /* DatePickerDialog.framework */; };
-		4BDE05AD1D8F3AF000DEF7F3 /* DatePickerDialog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BDE05A31D8F3AF000DEF7F3 /* DatePickerDialog.framework */; };
 		4BDE05C51D8F3B7D00DEF7F3 /* DatePickerDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDE05C01D8F3B7C00DEF7F3 /* DatePickerDialog.swift */; };
-		4BDE05C91D8F3B8500DEF7F3 /* DatePickerDialogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDE05C31D8F3B7D00DEF7F3 /* DatePickerDialogTests.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		4BDE05AE1D8F3AF000DEF7F3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4BDE059A1D8F3AF000DEF7F3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4BDE05A21D8F3AF000DEF7F3;
-			remoteInfo = DatePickerDialog;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		4B025BDE1D8F46E2000CF209 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -34,34 +16,16 @@
 		4B025BE41D8F46E2000CF209 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		4B025BE51D8F46E2000CF209 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		4B025BED1D8F4766000CF209 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4B1E9F371D8F3C9A00C1EF25 /* DatePickerDialogExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DatePickerDialogExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BDE05A31D8F3AF000DEF7F3 /* DatePickerDialog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DatePickerDialog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4BDE05AC1D8F3AF000DEF7F3 /* DatePickerDialogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DatePickerDialogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BDE05C01D8F3B7C00DEF7F3 /* DatePickerDialog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerDialog.swift; sourceTree = "<group>"; };
 		4BDE05C31D8F3B7D00DEF7F3 /* DatePickerDialogTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerDialogTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4B1E9F341D8F3C9A00C1EF25 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4BBB68A11D8FDAC500413949 /* DatePickerDialog.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4BDE059F1D8F3AF000DEF7F3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4BDE05A91D8F3AF000DEF7F3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4BDE05AD1D8F3AF000DEF7F3 /* DatePickerDialog.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,8 +74,6 @@
 			isa = PBXGroup;
 			children = (
 				4BDE05A31D8F3AF000DEF7F3 /* DatePickerDialog.framework */,
-				4BDE05AC1D8F3AF000DEF7F3 /* DatePickerDialogTests.xctest */,
-				4B1E9F371D8F3C9A00C1EF25 /* DatePickerDialogExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -145,23 +107,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		4B1E9F361D8F3C9A00C1EF25 /* DatePickerDialogExample */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4B1E9F481D8F3C9A00C1EF25 /* Build configuration list for PBXNativeTarget "DatePickerDialogExample" */;
-			buildPhases = (
-				4B1E9F331D8F3C9A00C1EF25 /* Sources */,
-				4B1E9F341D8F3C9A00C1EF25 /* Frameworks */,
-				4B1E9F351D8F3C9A00C1EF25 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = DatePickerDialogExample;
-			productName = DatePickerDialogExample;
-			productReference = 4B1E9F371D8F3C9A00C1EF25 /* DatePickerDialogExample.app */;
-			productType = "com.apple.product-type.application";
-		};
 		4BDE05A21D8F3AF000DEF7F3 /* DatePickerDialog */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4BDE05B71D8F3AF000DEF7F3 /* Build configuration list for PBXNativeTarget "DatePickerDialog" */;
@@ -180,24 +125,6 @@
 			productReference = 4BDE05A31D8F3AF000DEF7F3 /* DatePickerDialog.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		4BDE05AB1D8F3AF000DEF7F3 /* DatePickerDialogTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4BDE05BA1D8F3AF000DEF7F3 /* Build configuration list for PBXNativeTarget "DatePickerDialogTests" */;
-			buildPhases = (
-				4BDE05A81D8F3AF000DEF7F3 /* Sources */,
-				4BDE05A91D8F3AF000DEF7F3 /* Frameworks */,
-				4BDE05AA1D8F3AF000DEF7F3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4BDE05AF1D8F3AF000DEF7F3 /* PBXTargetDependency */,
-			);
-			name = DatePickerDialogTests;
-			productName = DatePickerDialogTests;
-			productReference = 4BDE05AC1D8F3AF000DEF7F3 /* DatePickerDialogTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -208,19 +135,9 @@
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = squimer;
 				TargetAttributes = {
-					4B1E9F361D8F3C9A00C1EF25 = {
-						CreatedOnToolsVersion = 8.0;
-						LastSwiftMigration = 0800;
-						ProvisioningStyle = Automatic;
-					};
 					4BDE05A21D8F3AF000DEF7F3 = {
 						CreatedOnToolsVersion = 8.0;
-						LastSwiftMigration = 0900;
-						ProvisioningStyle = Automatic;
-					};
-					4BDE05AB1D8F3AF000DEF7F3 = {
-						CreatedOnToolsVersion = 8.0;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -239,31 +156,12 @@
 			projectRoot = "";
 			targets = (
 				4BDE05A21D8F3AF000DEF7F3 /* DatePickerDialog */,
-				4BDE05AB1D8F3AF000DEF7F3 /* DatePickerDialogTests */,
-				4B1E9F361D8F3C9A00C1EF25 /* DatePickerDialogExample */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4B1E9F351D8F3C9A00C1EF25 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4B025BEA1D8F46E2000CF209 /* Launch Screen.storyboard in Resources */,
-				4B025BEF1D8F4766000CF209 /* Assets.xcassets in Resources */,
-				4B025BEB1D8F46E2000CF209 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4BDE05A11D8F3AF000DEF7F3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4BDE05AA1D8F3AF000DEF7F3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -273,15 +171,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4B1E9F331D8F3C9A00C1EF25 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4B025BE91D8F46E2000CF209 /* ViewController.swift in Sources */,
-				4B025BE61D8F46E2000CF209 /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4BDE059E1D8F3AF000DEF7F3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -290,56 +179,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4BDE05A81D8F3AF000DEF7F3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4BDE05C91D8F3B8500DEF7F3 /* DatePickerDialogTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		4BDE05AF1D8F3AF000DEF7F3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4BDE05A21D8F3AF000DEF7F3 /* DatePickerDialog */;
-			targetProxy = 4BDE05AE1D8F3AF000DEF7F3 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		4B1E9F461D8F3C9A00C1EF25 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CLANG_ENABLE_MODULES = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/Demo/Resources/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = squimer.DatePickerDialogExample;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Debug;
-		};
-		4B1E9F471D8F3C9A00C1EF25 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CLANG_ENABLE_MODULES = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/Demo/Resources/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = squimer.DatePickerDialogExample;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
 		4BDE05B51D8F3AF000DEF7F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -470,8 +312,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -491,49 +332,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = squimer.DatePickerDialog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
-			};
-			name = Release;
-		};
-		4BDE05BB1D8F3AF000DEF7F3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = squimer.DatePickerDialogTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
-			};
-			name = Debug;
-		};
-		4BDE05BC1D8F3AF000DEF7F3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = squimer.DatePickerDialogTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4B1E9F481D8F3C9A00C1EF25 /* Build configuration list for PBXNativeTarget "DatePickerDialogExample" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4B1E9F461D8F3C9A00C1EF25 /* Debug */,
-				4B1E9F471D8F3C9A00C1EF25 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4BDE059D1D8F3AF000DEF7F3 /* Build configuration list for PBXProject "DatePickerDialog" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -548,15 +353,6 @@
 			buildConfigurations = (
 				4BDE05B81D8F3AF000DEF7F3 /* Debug */,
 				4BDE05B91D8F3AF000DEF7F3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4BDE05BA1D8F3AF000DEF7F3 /* Build configuration list for PBXNativeTarget "DatePickerDialogTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4BDE05BB1D8F3AF000DEF7F3 /* Debug */,
-				4BDE05BC1D8F3AF000DEF7F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
